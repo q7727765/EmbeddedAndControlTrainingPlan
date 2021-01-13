@@ -1,5 +1,6 @@
 @echo off
 echo ¡¾EmbeddedAndControlTranining¸üÐÂ³ÌÐò¡¿
+git remote add origin_http https://github.com/q7727765/EmbeddedAndControlTrainingPlan.git
 git remote update origin_http
 git pull origin_http master
 git reset --hard HEAD
