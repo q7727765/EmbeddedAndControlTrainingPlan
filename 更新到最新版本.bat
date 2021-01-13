@@ -1,5 +1,5 @@
 @echo off
-echo "【EmbeddedAndControlTranining更新程序】"
+echo 【EmbeddedAndControlTranining更新程序】
 git fetch https://github.com/q7727765/EmbeddedAndControlTrainingPlan.git --tags --prune
 git pull https://github.com/q7727765/EmbeddedAndControlTrainingPlan.git master
 git reset --hard HEAD
