@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="false" context="org.eclipse.cdt.ui.text.codetemplates.filecomment_context" deleted="false" description="Comment for created C/C++ files" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.filecomment" name="filecomment">/**
+ * @file:         	${file_name}
+ * @brief:        	${todo}
+ * @details:  		${todo}
+ * @author:       	${user}
+ * @date created:   ${date}
+ * @version:  		1.0
+ * @par Copyright (c):
+ *   Robotics Robotics Ltd.
+ * @par History (desc):        
+ *   version:1.0, ${user}, (${date} ${time})
+ */</template><template autoinsert="false" context="org.eclipse.cdt.core.cSource.contenttype_context" deleted="false" description="" enabled="true" name="Module.c">${filecomment}&#13;
+${includes}&#13;
+&#13;
+${declarations}&#13;
+&#13;
+/* Include files **************************************************************/&#13;
+#include "${file_base}.h"&#13;
+&#13;
+/* Variable Define ************************************************************/&#13;
+&#13;
+/* Function Define ************************************************************/&#13;
+</template><template autoinsert="false" context="org.eclipse.cdt.core.cHeader.contenttype_context" deleted="false" description="" enabled="true" name="Module_DataType.h">${filecomment}&#13;
+#ifndef ${include_guard_symbol}&#13;
+#define ${include_guard_symbol}&#13;
+&#13;
+${includes}&#13;
+${declarations}&#13;
+&#13;
+/* Include files **************************************************************/&#13;
+#include &lt;stdint.h&gt;&#13;
+#include &lt;stdbool.h&gt;&#13;
+&#13;
+/* Data type definition *******************************************************/&#13;
+&#13;
+&#13;
+#endif /* ${include_guard_symbol} */</template><template autoinsert="false" context="org.eclipse.cdt.core.cHeader.contenttype_context" deleted="false" description="" enabled="true" name="Module.h">${filecomment}&#13;
+#ifndef ${include_guard_symbol}&#13;
+#define ${include_guard_symbol}&#13;
+&#13;
+${includes}&#13;
+${declarations}&#13;
+&#13;
+/* Include files **************************************************************/&#13;
+#include "${file_base}_DataType.h"&#13;
+&#13;
+/* Global macro definition ****************************************************/&#13;
+&#13;
+/* Variable Declare ***********************************************************/&#13;
+&#13;
+/* Function Declare ***********************************************************/&#13;
+&#13;
+/* Inline function define *****************************************************/&#13;
+&#13;
+&#13;
+#endif /* ${include_guard_symbol} */</template></templates>
